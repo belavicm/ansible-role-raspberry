@@ -10,7 +10,8 @@
   become: yes
   apt: 
     upgrade=dist
-
+    
+# Creates directory
 - name: Creates directory
   file:
     path: /root/test
